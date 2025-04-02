@@ -1,12 +1,19 @@
-{
-    "name": "ClearSocial",
-    "description": "A unified social media client for multiple platforms",
-    "uri": "http://127.0.0.1:8080",
-    "redirect_uris": ["http://127.0.0.1:8080/auth/bluesky/callback"],
-    "logo": {
-      "svg": "http://127.0.0.1:8080/static/images/logo.svg",
-      "png": "http://127.0.0.1:8080/static/images/logo.png"
-    },
-    "termsOfServiceUri": "http://127.0.0.1:8080/terms",
-    "privacyPolicyUri": "http://127.0.0.1:8080/privacy"
+ {
+    "client_id": "https://dratner.github.io/bluesky-oauth.json",
+    "application_type": "web",
+    "client_name": "ClearSocial",
+    "client_uri": "http://127.0.0.1:8080",
+    "dpop_bound_access_tokens": true,
+    "grant_types": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "redirect_uris": [
+      "http://127.0.0.1:8080/auth/bluesky/callback"
+    ],
+    "response_types": [
+      "code"
+    ],
+    "scope": "atproto",
+    "token_endpoint_auth_method": "none"
   }
