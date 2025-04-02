@@ -2,14 +2,14 @@
     "client_id": "https://dratner.github.io/bluesky-oauth.json",
     "application_type": "web",
     "client_name": "ClearSocial",
-    "client_uri": "http://127.0.0.1:8080",
+    "client_uri": "https://dev.clearsocial.org",
     "dpop_bound_access_tokens": true,
     "grant_types": [
       "authorization_code",
       "refresh_token"
     ],
     "redirect_uris": [
-      "http://127.0.0.1:8080/auth/bluesky/callback"
+      "https://dev.clearsocial.org/auth/bluesky/callback"
     ],
     "response_types": [
       "code"
