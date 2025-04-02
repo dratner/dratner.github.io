@@ -1,12 +1,12 @@
 {
     "name": "ClearSocial",
     "description": "A unified social media client for multiple platforms",
-    "uri": "http://localhost:8080",
-    "redirectUris": ["http://localhost:8080/auth/bluesky/callback"],
+    "uri": "http://127.0.0.1:8080",
+    "redirectUris": ["http://127.0.0.1:8080/auth/bluesky/callback"],
     "logo": {
-      "svg": "http://localhost:8080/static/images/logo.svg",
-      "png": "http://localhost:8080/static/images/logo.png"
+      "svg": "http://127.0.0.1:8080/static/images/logo.svg",
+      "png": "http://127.0.0.1:8080/static/images/logo.png"
     },
-    "termsOfServiceUri": "http://localhost:8080/terms",
-    "privacyPolicyUri": "http://localhost:8080/privacy"
+    "termsOfServiceUri": "http://127.0.0.1:8080/terms",
+    "privacyPolicyUri": "http://127.0.0.1:8080/privacy"
   }
